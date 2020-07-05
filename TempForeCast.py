@@ -4,11 +4,9 @@ Created on Sun Jul  5 13:33:49 2020
 
 @author: ACER
 """
-from scipy import stats 
 import pandas as pd
 import numpy as np 
 from sklearn.linear_model import LinearRegression
-import matplotlib.pyplot as plt
 
 
 def tempForeCast(temperature,currentTemp ,minute):
